@@ -1,0 +1,38 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  input{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  textarea {
+    margin-bottom: 10px;
+    width: 395px;
+    height: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .pic{
+    background-image: url('dd.jfif');
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1000px;
+    z-index: -1;
+    filter: blur(5px);
+  }
